@@ -94,6 +94,7 @@ const Profile: React.FC = () => {
             location={data.user.location}
             email={data.user.email}
             blog={data.user.blog}
+            bio={data.user.bio}
           />
         </LeftSide>
 

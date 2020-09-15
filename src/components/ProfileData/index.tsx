@@ -23,6 +23,7 @@ interface Props {
   location?: string;
   email?: string;
   blog?: string;
+  bio?: string;
 }
 
 const ProfileData: React.FC<Props> = ({
@@ -35,6 +36,7 @@ const ProfileData: React.FC<Props> = ({
   location,
   email,
   blog,
+  bio,
 }) => (
   <Container>
     <Flex>
@@ -43,6 +45,7 @@ const ProfileData: React.FC<Props> = ({
       <div>
         <h1>{name}</h1>
         <h2>{username}</h2>
+        <p>{bio}</p>
       </div>
     </Flex>
 

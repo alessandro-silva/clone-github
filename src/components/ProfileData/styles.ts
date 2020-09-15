@@ -35,6 +35,12 @@ export const Flex = styled.div`
       color: var(--username);
       font-weight: 300;
     }
+
+    > p {
+      margin-top: 8px;
+      font-size: 16px;
+      color: var(--username);
+    }
   }
 
   @media (min-width: 768px) {
